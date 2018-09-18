@@ -15,7 +15,7 @@ public class TestadorApp {
 
 		System.out.println("Ola Mundo !");
 		Aplicacao aplicacao = FabricaVo.criaAplicacao();
-		aplicacao.setIdAplicacao(90);
+		aplicacao.setIdAplicacao(1);
 		GeradorAngular gerador = new GeradorAngular();
 		//GeradorArquivosAndroid2 gerador = new GeradorArquivosAndroid2();
 		//GeradorArquivosCpp gerador = new GeradorArquivosCpp();
