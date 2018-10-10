@@ -84,6 +84,7 @@ public abstract class GeradorArquivosBase {
 			Entidade entidade = (Entidade) iterador.next();
 			ClasseWrapper corrente = criaWrapper(entidade);
 			List<AtributoEntidade> listaAtributos = getListaAtributos(corrente.getId());
+			
 			AtributoEntidade attChave = this.getAtributo(corrente.getIdChave());
 			corrente.setChave(attChave);
 			AtributoEntidade attIdent = this.getAtributo(corrente.getIdIdentificador());
